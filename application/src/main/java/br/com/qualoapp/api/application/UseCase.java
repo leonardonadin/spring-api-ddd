@@ -1,9 +1,9 @@
 package br.com.qualoapp.api.application;
 
-import br.com.qualoapp.api.domain.Category;
+import br.com.qualoapp.api.domain.category.Category;
 
 public class UseCase {
     public Category execute() {
-        return new Category();
+//        return new Category();
     }
 }
